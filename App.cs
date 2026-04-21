@@ -1,5 +1,5 @@
 // Boris Bar — Windows port (C# .NET 8 WinForms)
-// Global hotkeys: Alt+Win+1-9  |  Custom sounds: %APPDATA%\BorisBar\custom\
+// Global hotkeys: Ctrl+Alt+1-9  |  Custom sounds: %APPDATA%\BorisBar\custom\
 // Build: dotnet publish -c Release
 // Run:   dotnet run
 
@@ -42,19 +42,19 @@ sealed class BorisBarApp : ApplicationContext
     [DllImport("user32.dll")] static extern bool UnregisterHotKey(IntPtr hWnd, int id);
     [DllImport("user32.dll")] static extern bool DestroyIcon(IntPtr hIcon);
 
-    const int MOD_ALT = 0x0001, MOD_WIN = 0x0008, MOD_NOREPEAT = 0x4000;
+    const int MOD_ALT = 0x0001, MOD_CTRL = 0x0002, MOD_NOREPEAT = 0x4000;
 
     static readonly Clip[] Clips =
     [
-        new("F4",                                 "F4",                                 1, "Alt+Win+1"),
-        new("Tutti basiti",                       "Tutti basiti",                       2, "Alt+Win+2"),
-        new("A cazzo di cane",                    "a cazzo di cane",                    3, "Alt+Win+3"),
-        new("Fai uno sforzo",                     "fai uno sforzo",                     4, "Alt+Win+4"),
-        new("Fiano Romano",                       "Fiano Romano",                       5, "Alt+Win+5"),
-        new("Però sei molto italiano",            "Però sei molto italiano",            6, "Alt+Win+6"),
-        new("Thank you for being so not italian", "Thank you for being so not italian", 7, "Alt+Win+7"),
-        new("Io la mollo questa serie",           "Io la mollo questa serie",           8, "Alt+Win+8"),
-        new("Vuoi una pompa",                     "Vuoi una pompa",                     9, "Alt+Win+9"),
+        new("F4",                                 "F4",                                 1, "Ctrl+Alt+1"),
+        new("Tutti basiti",                       "Tutti basiti",                       2, "Ctrl+Alt+2"),
+        new("A cazzo di cane",                    "a cazzo di cane",                    3, "Ctrl+Alt+3"),
+        new("Fai uno sforzo",                     "fai uno sforzo",                     4, "Ctrl+Alt+4"),
+        new("Fiano Romano",                       "Fiano Romano",                       5, "Ctrl+Alt+5"),
+        new("Però sei molto italiano",            "Però sei molto italiano",            6, "Ctrl+Alt+6"),
+        new("Thank you for being so not italian", "Thank you for being so not italian", 7, "Ctrl+Alt+7"),
+        new("Io la mollo questa serie",           "Io la mollo questa serie",           8, "Ctrl+Alt+8"),
+        new("Vuoi una pompa",                     "Vuoi una pompa",                     9, "Ctrl+Alt+9"),
     ];
 
     static readonly string[] AudioExts = ["mp3", "mp4", "m4a", "wav", "aiff", "aif"];
@@ -88,7 +88,7 @@ sealed class BorisBarApp : ApplicationContext
         };
 
         for (int i = 0; i < Clips.Length; i++)
-            RegisterHotKey(_host.Handle, Clips[i].Id, MOD_WIN | MOD_ALT | MOD_NOREPEAT, (int)Keys.D1 + i);
+            RegisterHotKey(_host.Handle, Clips[i].Id, MOD_CTRL | MOD_ALT | MOD_NOREPEAT, (int)Keys.D1 + i);
 
         _stopTimer = new System.Windows.Forms.Timer { Interval = 30_000 };
         _stopTimer.Tick += (_, _) => StopPlayback();

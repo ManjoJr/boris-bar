@@ -11,7 +11,7 @@ Original project: [andrearicciotti1/boris-bar](https://github.com/andrearicciott
 ## ✨ Features
 
 - 🐟 Fish icon in the system tray (no taskbar entry)
-- 🎧 9 built-in clips with global shortcuts `Alt+Win+1` … `Alt+Win+9`
+- 🎧 9 built-in clips with global shortcuts `Ctrl+Alt+1` … `Ctrl+Alt+9` (also `AltGr+1-9`)
 - ➕ Load your own custom sounds via file picker
 - ⏱ 30 s max per clip — press the same shortcut again to stop
 - 🚀 Optional launch at Windows startup (toggle in the tray menu)
@@ -69,15 +69,15 @@ Supported formats: `mp3`, `mp4`, `m4a`, `wav`, `aiff`, `aif`
 
 | Shortcut     | Clip                               |
 |--------------|------------------------------------|
-| `Alt+Win+1`  | F4                                 |
-| `Alt+Win+2`  | Tutti basiti                       |
-| `Alt+Win+3`  | A cazzo di cane                    |
-| `Alt+Win+4`  | Fai uno sforzo                     |
-| `Alt+Win+5`  | Fiano Romano                       |
-| `Alt+Win+6`  | Però sei molto italiano            |
-| `Alt+Win+7`  | Thank you for being so not italian |
-| `Alt+Win+8`  | Io la mollo questa serie           |
-| `Alt+Win+9`  | Vuoi una pompa                     |
+| `Ctrl+Alt+1`  | F4                                 |
+| `Ctrl+Alt+2`  | Tutti basiti                       |
+| `Ctrl+Alt+3`  | A cazzo di cane                    |
+| `Ctrl+Alt+4`  | Fai uno sforzo                     |
+| `Ctrl+Alt+5`  | Fiano Romano                       |
+| `Ctrl+Alt+6`  | Però sei molto italiano            |
+| `Ctrl+Alt+7`  | Thank you for being so not italian |
+| `Ctrl+Alt+8`  | Io la mollo questa serie           |
+| `Ctrl+Alt+9`  | Vuoi una pompa                     |
 
 Shortcuts work system-wide, even when the menu is closed.
 Press the same shortcut again to stop playback.
