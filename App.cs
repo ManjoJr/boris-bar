@@ -46,15 +46,16 @@ sealed class BorisBarApp : ApplicationContext
 
     static readonly Clip[] Clips =
     [
-        new("F4",                                 "F4",                                 1, "Ctrl+Alt+1"),
-        new("Tutti basiti",                       "Tutti basiti",                       2, "Ctrl+Alt+2"),
-        new("A cazzo di cane",                    "a cazzo di cane",                    3, "Ctrl+Alt+3"),
-        new("Fai uno sforzo",                     "fai uno sforzo",                     4, "Ctrl+Alt+4"),
-        new("Fiano Romano",                       "Fiano Romano",                       5, "Ctrl+Alt+5"),
-        new("Però sei molto italiano",            "Però sei molto italiano",            6, "Ctrl+Alt+6"),
-        new("Thank you for being so not italian", "Thank you for being so not italian", 7, "Ctrl+Alt+7"),
-        new("Io la mollo questa serie",           "Io la mollo questa serie",           8, "Ctrl+Alt+8"),
-        new("Vuoi una pompa",                     "Vuoi una pompa",                     9, "Ctrl+Alt+9"),
+        new("A cazzo di cane", "0 - a cazzo di cane", 0, "Ctrl+Alt+0"),
+        new("Cazzata", "1 - cazzata", 1, "Ctrl+Alt+1"),
+        new("La qualità", "2- la qualità ha rotto", 2, "Ctrl+Alt+2"),
+        new("Quanti cazzi", "3 - quanti cazzi", 3, "Ctrl+Alt+3"),
+        new("Coffee break", "4 - coffee  break", 4, "Ctrl+Alt+4"),
+        new("Sforzo", "5 - sforzo", 5, "Ctrl+Alt+5"),
+        new("Thank you for being so not italian", "6 - thank you for being so not italian", 6, "Ctrl+Alt+6"),
+        new("F4", "7 - F4 basito", 7, "Ctrl+Alt+7"),
+        new("Fiano Romano",  "8- fiano romano", 8, "Ctrl+Alt+8"),
+        new("Facciamoli scopare", "9 - facciamoli scopare", 9, "Ctrl+Alt+9"),
     ];
 
     static readonly string[] AudioExts = ["mp3", "mp4", "m4a", "wav", "aiff", "aif"];
