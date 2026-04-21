@@ -1,4 +1,4 @@
-# 🐟 Boris Bar - Windows
+# 🐟 Boris Bar
 
 Menu bar app macOS ispirata alla serie TV italiana *Boris*. Clip audio iconici della serie a portata di shortcut globale, dalla menu bar del Mac.
 
