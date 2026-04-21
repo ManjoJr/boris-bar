@@ -1,9 +1,17 @@
-# Build artifacts
+# Build artifacts — macOS
 BorisBar.app/
 dmg-staging/
 fish.iconset/
 *.dmg
 *.pkg
+
+# Build artifacts — .NET / Windows
+bin/
+obj/
+*.user
+*.suo
+.vs/
+publish/
 
 # Generated icns (can be rebuilt from SVG)
 assets/AppIcon.icns
