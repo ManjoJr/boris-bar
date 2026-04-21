@@ -19,14 +19,20 @@ Original project: [andrearicciotti1/boris-bar](https://github.com/andrearicciott
 
 ---
 
-## 📦 Requirements
+## 📦 Installation
 
-- Windows 10 or 11 (x64)
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+### Option A — Download (recommended)
 
----
+1. Download `BorisBar-x.x.zip` from the latest [Release](../../releases/latest)
+2. Extract the zip anywhere you like
+3. **First launch — SmartScreen warning:** Windows may show *"Windows protected your PC"* because the app isn't signed with a paid certificate. Click **More info** → **Run anyway**
+   (Alternative: right-click `BorisBar.exe` → **Properties** → tick **Unblock** → OK)
+4. The fish icon appears in the system tray (bottom-right, near the clock — expand the `^` arrow if hidden)
+5. Right-click the fish → pick a clip or configure the app
 
-## 🚀 Run (development)
+### Option B — Build from source (for development)
+
+Requires [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ```powershell
 git clone https://github.com/ManjoJr/boris-bar.git
@@ -34,18 +40,9 @@ cd boris-bar
 dotnet run
 ```
 
-The app appears in the system tray. The terminal must stay open while running.
+The terminal must stay open while running. For a standalone exe see below.
 
 ---
-
-## 📦 Build a standalone exe
-
-```powershell
-dotnet publish -c Release -o publish
-```
-
-Run `publish\BorisBar.exe` directly — no terminal needed.
-
 ---
 
 ## 🎵 Audio clips
