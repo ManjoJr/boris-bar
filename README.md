@@ -100,10 +100,10 @@ Press the same shortcut again to stop playback.
 
 ## 🤘 Credits
 
-Windows port by [ManjoJr](https://github.com/ManjoJr)
-Based on the original macOS app by [Andrea Ricciotti (PunxCode)](https://github.com/andrearicciotti1)
+Windows port by [ManjoJr](https://github.com/ManjoJr)<br>
+Based on the original macOS app by [Andrea Ricciotti (PunxCode)](https://github.com/andrearicciotti1)<br>
 Original repo: [andrearicciotti1/boris-bar](https://github.com/andrearicciotti1/boris-bar)
 
 ---
 
-> *"Se mi permette...a cazzo di cane."*
+> *"Se mi permetti... a cazzo di cane, funziona sempre."*
