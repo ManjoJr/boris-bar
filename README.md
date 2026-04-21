@@ -11,7 +11,7 @@ Original project: [andrearicciotti1/boris-bar](https://github.com/andrearicciott
 ## ✨ Features
 
 - 🐟 Fish icon in the system tray (no taskbar entry)
-- 🎧 9 built-in clips with global shortcuts `Ctrl+Alt+1` … `Ctrl+Alt+9` (also `AltGr+1-9`)
+- 🎧 10 built-in clips with global shortcuts `Ctrl+Alt+0` … `Ctrl+Alt+9` (also `AltGr+0-9`)
 - ➕ Load your own custom sounds via file picker
 - ⏱ 30 s max per clip — press the same shortcut again to stop
 - 🚀 Optional launch at Windows startup (toggle in the tray menu)
@@ -48,7 +48,7 @@ The terminal must stay open while running. For a standalone exe see below.
 ## 🎵 Audio clips
 
 Built-in clips are loaded from a `clips\` folder next to the executable.
-Place your audio files there named after the clip label (e.g. `F4.mp3`, `Tutti basiti.mp3`).
+Place your audio files there named after the clip's `Base` field (e.g. `0 - a cazzo di cane.mp3`, `7 - F4 basito.mp3`).
 
 During development, put them in `assets\clips\` — they are copied to `bin\...\clips\` automatically at build time.
 
@@ -64,17 +64,18 @@ Supported formats: `mp3`, `mp4`, `m4a`, `wav`, `aiff`, `aif`
 
 ## ⌨️ Default shortcuts
 
-| Shortcut     | Clip                               |
-|--------------|------------------------------------|
-| `Ctrl+Alt+1`  | F4                                 |
-| `Ctrl+Alt+2`  | Tutti basiti                       |
-| `Ctrl+Alt+3`  | A cazzo di cane                    |
-| `Ctrl+Alt+4`  | Fai uno sforzo                     |
-| `Ctrl+Alt+5`  | Fiano Romano                       |
-| `Ctrl+Alt+6`  | Però sei molto italiano            |
-| `Ctrl+Alt+7`  | Thank you for being so not italian |
-| `Ctrl+Alt+8`  | Io la mollo questa serie           |
-| `Ctrl+Alt+9`  | Vuoi una pompa                     |
+| Shortcut      | Clip                               |
+|---------------|------------------------------------|
+| `Ctrl+Alt+0`  | A cazzo di cane                    |
+| `Ctrl+Alt+1`  | Cazzata                            |
+| `Ctrl+Alt+2`  | La qualità                         |
+| `Ctrl+Alt+3`  | Quanti cazzi                       |
+| `Ctrl+Alt+4`  | Coffee break                       |
+| `Ctrl+Alt+5`  | Sforzo                             |
+| `Ctrl+Alt+6`  | Thank you for being so not italian |
+| `Ctrl+Alt+7`  | F4                                 |
+| `Ctrl+Alt+8`  | Fiano Romano                       |
+| `Ctrl+Alt+9`  | Facciamoli scopare                 |
 
 Shortcuts work system-wide, even when the menu is closed.
 Press the same shortcut again to stop playback.

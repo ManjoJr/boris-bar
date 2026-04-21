@@ -89,7 +89,7 @@ sealed class BorisBarApp : ApplicationContext
         };
 
         for (int i = 0; i < Clips.Length; i++)
-            RegisterHotKey(_host.Handle, Clips[i].Id, MOD_CTRL | MOD_ALT | MOD_NOREPEAT, (int)Keys.D1 + i);
+            RegisterHotKey(_host.Handle, Clips[i].Id, MOD_CTRL | MOD_ALT | MOD_NOREPEAT, (int)Keys.D0 + i);
 
         _stopTimer = new System.Windows.Forms.Timer { Interval = 30_000 };
         _stopTimer.Tick += (_, _) => StopPlayback();
