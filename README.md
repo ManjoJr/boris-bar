@@ -64,18 +64,18 @@ Supported formats: `mp3`, `mp4`, `m4a`, `wav`, `aiff`, `aif`
 
 ## ⌨️ Default shortcuts
 
-| Shortcut      | Clip                               |
-|---------------|------------------------------------|
-| `Ctrl+Alt+0`  | A cazzo di cane                    |
-| `Ctrl+Alt+1`  | Cazzata                            |
-| `Ctrl+Alt+2`  | La qualità                         |
-| `Ctrl+Alt+3`  | Quanti cazzi                       |
-| `Ctrl+Alt+4`  | Coffee break                       |
-| `Ctrl+Alt+5`  | Sforzo                             |
-| `Ctrl+Alt+6`  | Thank you for being so not italian |
-| `Ctrl+Alt+7`  | F4                                 |
-| `Ctrl+Alt+8`  | Fiano Romano                       |
-| `Ctrl+Alt+9`  | Facciamoli scopare                 |
+| Shortcut      | Clip                                |
+|---------------|-------------------------------------|
+| `Ctrl+Alt+0`  | A cazzo di cane                     |
+| `Ctrl+Alt+1`  | Cazzata                             |
+| `Ctrl+Alt+2`  | La qualità                          |
+| `Ctrl+Alt+3`  | Quanti cazzi                        |
+| `Ctrl+Alt+4`  | Coffee break                        |
+| `Ctrl+Alt+5`  | Sforzo                              |
+| `Ctrl+Alt+6`  | Importante                          |
+| `Ctrl+Alt+7`  | Thank you for being so not italian  |
+| `Ctrl+Alt+8`  | F4                                  |
+| `Ctrl+Alt+9`  | Fiano Romano                        |
 
 Shortcuts work system-wide, even when the menu is closed.
 Press the same shortcut again to stop playback.
